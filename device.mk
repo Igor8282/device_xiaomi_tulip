@@ -240,6 +240,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     chargeonlymode
 
+# Hide
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
