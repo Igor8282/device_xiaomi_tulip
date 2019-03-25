@@ -681,6 +681,7 @@ on property:sys.qbcharger.enable=false
 
 
 
+
 service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/msm_irqbalance.conf
     class core
     user root
@@ -738,4 +739,8 @@ on property:vendor.opengles.version=*
 
 #Set gpu available frequencies property
 on property:vendor.gpu.available_frequencies=*
+
     setprop ro.vendor.gpu.available_frequencies ${vendor.gpu.available_frequencies}
+
+    setprop ro.vendor.gpu.available_frequencies ${vendor.gpu.available_frequencies}
+
