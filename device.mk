@@ -199,7 +199,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint feature
 PRODUCT_PACKAGES += \
-    fingerprintd
+    fingerprintd \
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_tulip
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml

@@ -688,7 +688,7 @@ service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/m
     group root
     disabled
 
-service vendor.goodix_script /vendor/bin/init.goodix.sh
+service goodix_script /vendor/bin/init.goodix.sh
     class late_start
     user root
     oneshot
@@ -739,8 +739,5 @@ on property:vendor.opengles.version=*
 
 #Set gpu available frequencies property
 on property:vendor.gpu.available_frequencies=*
-
-    setprop ro.vendor.gpu.available_frequencies ${vendor.gpu.available_frequencies}
-
     setprop ro.vendor.gpu.available_frequencies ${vendor.gpu.available_frequencies}
 
