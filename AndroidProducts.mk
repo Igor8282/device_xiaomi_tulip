@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/viper_tulip.mk
+    $(LOCAL_DIR)/cos.mk
