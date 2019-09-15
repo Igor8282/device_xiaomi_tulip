@@ -149,8 +149,8 @@ PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library
 
-PRODUCT_COPY_FILES += \
-    external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.dsi.ant.antradio_library.xml
+#PRODUCT_COPY_FILES += \
+#    external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.dsi.ant.antradio_library.xml
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -167,8 +167,8 @@ PRODUCT_PACKAGES += \
     services-ext
 
 # Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
+#PRODUCT_PACKAGES += \
+  #  XiaomiParts
 
 # Display
 PRODUCT_PACKAGES += \
@@ -328,7 +328,9 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service
+    android.hardware.power@1.0-impl \
+    android.hardware.power@1.0-service \
+    power.qcom
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
