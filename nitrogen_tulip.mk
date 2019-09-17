@@ -21,9 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # Inherit from tulip device
 $(call inherit-product, device/xiaomi/tulip/device.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Inherit some common Aosp Stuff
-PRODUCT_NAME := aosp_tulip
+PRODUCT_NAME := nitrogen_tulip
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := tulip
 PRODUCT_MANUFACTURER := Xiaomi

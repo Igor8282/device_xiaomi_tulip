@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_tulip.mk
+    $(LOCAL_DIR)/nitrogen_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_tulip-userdebug
+    nitrogen_tulip-userdebug

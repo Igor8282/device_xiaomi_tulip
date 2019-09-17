@@ -92,9 +92,9 @@ PRODUCT_COPY_FILES += $(LOCAL_PATH)/configs/whitelistedapps.xml:$(TARGET_COPY_OU
                       $(LOCAL_PATH)/configs/appboosts.xml:$(TARGET_COPY_OUT_VENDOR)/etc/appboosts.xml
 
 # Alipay
-PRODUCT_PACKAGES += \
-    IFAAService \
-    org.ifaa.android.manager
+#PRODUCT_PACKAGES += \
+   # IFAAService \
+   # org.ifaa.android.manager
 
 #PRODUCT_BOOT_JARS += \
    # org.ifaa.android.manager
